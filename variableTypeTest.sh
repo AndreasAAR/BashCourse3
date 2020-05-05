@@ -1,7 +1,7 @@
 !##!/usr/bin/env bash
 #Testing types
 number=16
-string="String"
+declare -u string="String"
 command="echo "hello""
 
 echo $string
