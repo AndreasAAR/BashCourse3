@@ -13,6 +13,6 @@ endfile=redtextTest.txt
 
 
 cat <<-EOF > $endfile
+EOF
 
 Some tests of text colors and environment.
-EOF
