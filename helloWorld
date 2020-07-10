@@ -1,0 +1,10 @@
+#!bash
+echo -e "hello world\n\n"
+
+testVar=5
+export testVar
+echo $terminalVar
+terminalVar="Im from the script now"
+echo $terminalVar
+export terminalVar
+echo "Try printing me after Ive been exported in the shell!"
