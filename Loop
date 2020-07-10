@@ -1,0 +1,10 @@
+#!bash
+
+declare -i loopvar=10
+
+while
+   (($loopvar > 0))
+do
+  loopvar=$loopvar-1
+  echo $loopvar
+done
