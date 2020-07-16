@@ -1,0 +1,4 @@
+#!bash
+cat awkColmeanData  | \
+awk '{for (i=1;i<=NF;i++) sum[i]+=$i} \
+END{for (i in sum) printf "%d%s", sum[i], (i==NF?"\n":" ")}'

@@ -1,0 +1,7 @@
+#!bash
+while true
+do
+  echo "Andreasu! $1";
+  read -t 2 answer
+  if [ $? == 0 ] && [ $answer == "what" ]; then echo "Forty Thousand!"; fi
+done

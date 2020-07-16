@@ -1,0 +1,5 @@
+#!bash
+command="grep -v -c -i "evil" EvilEvalTest"
+sortedList="ls -s | sort -n"
+eval $command
+eval $sortedList
