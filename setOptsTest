@@ -1,0 +1,4 @@
+#!bash
+opts="a b \$1 \$2"
+eval set -- "$opts"
+echo $@
